@@ -1,3 +1,5 @@
+# About Collections
+
 _I know that this really is a basic subject for most developers out there. But, two weeks ago I was asked on the best way for performing a specific task with collections and I really strove before I could give an answer. That's the main reason I did this post, to refresh myself and hopefully help someone too._
 
 Whenever we face the task to store or manage data and groups of objects we <Collections - storing and managing groups of objects.> <recorrer> to collections. In Objective-C we have the well known: **NSArray**, **NSDictionary** and **NSSet**. But we should always keep in mind that, even though we can perform a task with more than one specific one, there are really pros and cons that we should consider before writting code. This could help us gain performance that will make a difference when handling massive-load operations.
@@ -136,6 +138,8 @@ Average [B]: 3487 ns
 As we can see, our B implementation has a better execution time by almost **15.5x times**. And this huge difference was obtained using a simple array of only 47 items.
 
 Now we can see how thinking a couple of times before diving into coding could help us improve the efficiency and execution time of our code.
+
+by [@coderpug](http://twitter.com/coderpug)
 
 ---
 
